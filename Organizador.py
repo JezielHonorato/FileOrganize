@@ -1,7 +1,7 @@
 import os
 import shutil
 def organizarArquivos(pasta):
-  pasta_organizada = f'{__file__}'.replace('OneDrive\Python\OrganizarArquivos\Organizador.py', pasta)
+  pasta_organizada = f'{__file__}'.replace('OneDrive\Python\FileOrganize\Organizador.py', pasta)
 
   for file in os.listdir(pasta_organizada):
     conferir_arquivo = os.path.join(pasta_organizada, file)
